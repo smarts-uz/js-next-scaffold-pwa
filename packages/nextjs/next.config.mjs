@@ -1,4 +1,15 @@
 // @ts-check
+import withSerwistInit from "@serwist/next";
+import crypto from "crypto";
+
+const revision = crypto.randomUUID();
+
+const withSerwist = withSerwistInit({
+  cacheOnNavigation: true,
+  swSrc: "app/sw.ts",
+  swDest: "public/sw.js",
+  additionalPrecacheEntries: [{ url: "/~offline", revision }],
+});
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
@@ -16,4 +27,4 @@ const nextConfig = {
   },
 };
 
-module.exports = nextConfig;
+export default withSerwist(nextConfig);
