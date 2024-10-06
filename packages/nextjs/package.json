@@ -35,12 +35,14 @@
     "usehooks-ts": "^2.13.0",
     "viem": "2.21.7",
     "wagmi": "2.12.11",
+    "web-push": "^3.6.7",
     "zustand": "^4.1.2"
   },
   "devDependencies": {
     "@trivago/prettier-plugin-sort-imports": "^4.1.1",
     "@types/node": "^18.19.50",
     "@types/react": "^18.3.5",
+    "@types/web-push": "^3",
     "@typescript-eslint/eslint-plugin": "^5.39.0",
     "abitype": "1.0.6",
     "autoprefixer": "^10.4.20",
