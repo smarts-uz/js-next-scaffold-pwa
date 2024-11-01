@@ -2236,9 +2236,9 @@ __metadata:
     typescript: 5.5.3
     usehooks-ts: ^3.1.0
     vercel: ^37.4.2
-    web-push: ^3.6.7
     viem: 2.21.32
     wagmi: 2.12.23
+    web-push: ^3.6.7
     zustand: ^5.0.0
   languageName: unknown
   linkType: soft
@@ -2953,13 +2953,6 @@ __metadata:
   version: 2.0.4
   resolution: "@types/trusted-types@npm:2.0.4"
   checksum: 5256c4576cd1c90d33ddd9cc9cbd4f202b39c98cbe8b7f74963298f9eb2159c285ea5c25a6181b4c594d8d75641765bff85d72c2d251ad076e6529ce0eeedd1c
-  languageName: node
-  linkType: hard
-
-"@types/uuid@npm:^10.0.0":
-  version: 10.0.0
-  resolution: "@types/uuid@npm:10.0.0"
-  checksum: e3958f8b0fe551c86c14431f5940c3470127293280830684154b91dc7eb3514aeb79fe3216968833cf79d4d1c67f580f054b5be2cd562bebf4f728913e73e944
   languageName: node
   linkType: hard
 
