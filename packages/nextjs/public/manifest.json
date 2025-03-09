@@ -1,11 +1,11 @@
 {
   "name": "Scaffold-ETH 2 + Serwist",
   "short_name": "Scaffold-Serwist",
-  "display": "standalone",
+  "display": "fullscreen",
   "orientation": "portrait",
   "theme_color": "#FFFFFF",
   "background_color": "#FFFFFF",
-  "start_url": "/",
+  "start_url": "/?fullscreen=true",
   "icons": [
     {
       "src": "/icons/android-chrome-192x192.png",
