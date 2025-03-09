@@ -6,9 +6,8 @@
   "orientation": "portrait",
   "theme_color": "#FFFFFF",
   "background_color": "#FFFFFF",
-  "start_url": "/?fullscreen=true",
-  "id": "/?fullscreen=true",
-  "scope": "/",
+  "start_url": "https://smarts-scaffold-pwa.netlify.app",
+  "scope": "https://smarts-scaffold-pwa.netlify.app",
   "icons": [
     {
       "src": "/icons/android-chrome-192x192.png",
@@ -24,4 +23,3 @@
     }
   ]
 }
-
